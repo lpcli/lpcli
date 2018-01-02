@@ -33,12 +33,21 @@
 }
 .zi3-1{
 	height: 250px;
-	margin-top: 200px;
-}
-.section3{
-	background: url(images/3zhongkuang.png)no-repeat center;
-	height: 260px;
 	margin-top: 100px;
+}
+.di3{
+	background: url(images/3zhongkuang.png);
+	width: 490px;
+	height: 280px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.zizu3{
+	float: left;
+	height: 210px;
+	width: 425px;
+	margin-top: 25px;
+	margin-left: 35px;
 }
 .jt3{
 	height: 30px;
@@ -59,6 +68,79 @@
     margin-right: -80px;
 	margin-top: 300px;
 }
+.jt5{
+	height: 30px;
+	float: right;
+	margin-right: -80px;
+	margin-top: 750px;
+}
+.section6{
+	background: url(images/6di.png)no-repeat center;
+}
+.bt6{
+	height: 150px;
+	margin-right: 800px;
+}
+.tu6-1{
+	width: 650px;
+	margin: 0 auto;
+}
+.tu6-2{
+	float: left;
+	width: 450px;
+	margin-top: 20px;
+	margin-left: 450px;
+}
+.tu6-3{
+	float: right;
+	width: 450px;
+	margin-right: 500px;
+	margin-top: 30px;
+}
+.jt6{
+	height: 30px;
+    margin-top: 300px;
+}
+.tu7-1{
+	float: top;
+	margin-left:100px; 
+}
+.tu7-2{
+	float: left;
+	margin-left: 200px;
+	margin-top: 80px;
+}
+.bt7{
+	float: right;
+	margin-top: 250px;
+	margin-right: 580px;
+}
+.jt7{
+	margin-top: 470px;
+}
+.section8{
+	background: url(images/8beijing.png) no-repeat center #000;
+}
+.di8{
+	background: url(images/8kuang.png);
+	width: 490px;
+	height: 280px;
+	margin-top: 450px;
+	margin-left: 500px;
+}
+.jt8{
+	margin-top: 100px;
+}
+.bt8{
+	float: right;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+.zi8{
+	float: left;
+	margin-left: 80px;
+	margin-top: 50px;
+}
 
 </style>
 <script src="js/jquery.min.js"></script>
@@ -66,9 +148,9 @@
 <script>
 $(function(){
 	$('#dowebok').fullpage({
-		sectionsColor: ['#000', '#000', '#000', '#000', '#000', '#000', '#000', '#000', '#000', '#000'],
+		sectionsColor: ['#000', '#000', '#000', '#000', '#000', '#000', '#000', '#000', '#000'],
 		'navigation': true,
-		anchors: ['page1','page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9', 'page10'],
+		anchors: ['page1','page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9'],
 		menu: '#menu'
 
 	});
@@ -94,9 +176,11 @@ $(function(){
 	<div class="section section2">
 		<div class="zu">
 			<div class="zi3-1"><img src="images/3zi.png" alt=""></a></div>
-			<div class="section3"></div>
-			<div class="jt3"><a href="#page4"><img src="images/3jiantou.png" alt=""></a></div>
+			<div class="di3">
+			<div class="zizu3"><img src="images/3zizu.png" alt=""></a></div>
 		</div>
+			<div class="jt3"><a href="#page4"><img src="images/jt.png" alt=""></a></div>
+	</div>
 	</div>
 		<div class="section">
 		<div class="zu">
@@ -108,27 +192,40 @@ $(function(){
 		<div class="zu">
 			<div class="bt5"><img src="images/5biaoti.png" alt=""></a></div>
 			<div class="zi5"><img src="images/5zi2.png" alt=""></a></div>
+			<div class="jt5"><a href="#page6"><img src="images/jt.png" alt=""></a></div>
 	</div>
 	</div>
-		<div class="section">
-		<h3>第6屏</h3>
-		<a href="#page7">下一屏</a>
+		<div class="section section6">
+		<div class="zu">
+		<div class="bt6"><img src="images/zpbt.png" alt=""></a></div>
+		<div class="tu6-1"><img src="images/6youshang.png" alt=""></a></div>
+		<div class="tu6-2"><img src="images/6xijie1.png" alt=""></a></div>
+		<div class="tu6-3"><img src="images/6youxia.png" alt=""></a></div>
+		<div class="jt6"><a href="#page7"><img src="images/jt.png" alt=""></a></div>
 	</div>
-		<div class="section">
-		<h3>第7屏</h3>
-		<a href="#page8">下一屏</a>
 	</div>
-		<div class="section">
-		<h3>第8屏</h3>
-		<a href="#page9">下一屏</a>
+		<div class="section section6">
+		<div class="zu">
+		<div class="tu7-1"><img src="images/7xijie.png" alt=""></a></div>
+		<div class="tu7-2"><img src="images/7tu.png" alt=""></a></div>
+		<div class="bt7"><img src="images/zpbt.png" alt=""></a></div>
+		<div class="jt7"><a href="#page8"><img src="images/jt.png" alt=""></a></div>
 	</div>
+	</div>
+		<div class="section section8">
+		<div class="zu">
+		<div class="di8">
+			<div class="zi8"><img src="images/8zizu.png" alt=""></a></div>
+		    <div class="bt8"><img src="images/8biaoti.png" alt=""></a></div>
+		</div>
+		<div class="jt8"><a href="#page9"><img src="images/jt.png" alt=""></a></div>
+	</div>
+    </div>
 	<div class="section">
-		<h3>第9屏</h3>
-		<a href="#page10">下一屏</a>
+		<div class="zu">
+        <div class="tu2-1"><img src="images/9zi.png" alt=""></a></div>
+		<div class="jt"><a href="#page1"><img src="images/9jiantou.png" alt=""></a></div>
 	</div>
-		<div class="section">
-		<h3>第10屏</h3>
-		<a href="#page1">返回首页</a>
 	</div>
 </div>
 
